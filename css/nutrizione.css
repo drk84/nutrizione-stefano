@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;   
+}
+html{
+    font-size:  18px;
+}
+
+:root{
+    --main-color: #4CAF50;
+    --secondary-color: #8BC34A;
+    --text-color: #333;
+    --background-color: #f9f9f9;
+    --background-secondary: antiqueWhite;
+    --font-family: 'Roboto Slab', serif;
+    --line-height: 1.6;
+    --max-width: 1200px;
+}
+/*Headers*/
+h1, h2, h3, h4, h5, h6, p{
+    margin:0 0 1rem 0;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-top:0.25rem;
+    color: var(--secondary-color)
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-size: 2.25rem;
+  letter-spacing: 0em;
+}
+
+h3 {
+  font-size: 1.75rem;
+  letter-spacing: 0.01em;
+}
+
+h4 {
+  font-size: 1.5rem;
+  letter-spacing: 0.02em;
+}
+
+h5 {
+  font-size: 1.25rem;
+  letter-spacing: 0.03em;
+}
+
+h6 {
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+}
+
+/*Flex items*/
+.flex-item-20{
+    flex:1 1 20%;
+}
+.flex-item-25{
+    flex:1 1 25%;
+}
+
+.flex-item-30{
+    flex:1 1 30%;
+}
+.flex-item-33{
+    flex:1 1 33.33%;
+}
+.flex-item-50{
+    flex:1 1 50%;
+}
+.flex-item-66{
+    flex:1 1 66.66%;
+}
+.flex-item-75{
+    flex:1 1 75%;
+}
+
+.flex-item-100{
+    flex:1 1 100%;
+}
+
+/*Images*/
+img{
+    width:100%;
+    height:auto;
+    display:block;
+    object-fit: cover;
+    object-position: center;
+}
+/*Flexbox*/
+.flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.v-center{
+    align-items: center;
+}
+
+.h-center{
+    justify-content: center;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+}
+.stretch{
+    align-items: stretch;
+    justify-content: stretch;
+}
+.text{
+    padding: 4rem 2rem;
+}
+
+
+.full-screen{
+    width:100%;
+    min-height:100vh;
+}
+
+.full-screen img{
+    height:100%;
+}
+
+.large-padding{
+    padding: 8rem 2rem;
+}
+
+
+ul{
+    list-style: none;
+    padding-left:1.5rem;
+    margin-bottom:4rem;
+    font-family: var(--font-family)
+}
+
+ul li{
+    padding-left:1.5rem;
+    margin-bottom:0.5rem;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('../fonts/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* variable range */
+  font-style: normal;
+}
+
+/* Tablet */
+@media (min-width: 768px) {  
+  
+}
+
+/* Laptop */
+@media (min-width: 992px) {
+    
+   
+
+
+ }
+
+/* Desktop */
+@media (min-width: 1200px) { 
+    
+   .flex{
+        flex-direction: row;
+   }
+
+   .reverse{
+       flex-direction: row-reverse;
+   }
+   
+   .text.center{
+    text-align: center;
+}
+
+   .direction-column{
+        flex-direction: column;
+   }
+}
+
+/*Sito*/
+#intro{
+    /*
+    background-image: url('../images/pastaverdura.jpg');
+    background-size: contain;
+    background-position:  center;*/
+    height: 100vh;
+    background-repeat:no-repeat;
+    flex:1 1 50%;
+}
+.bg-alt{
+    background-color: var(--background-color);
+}
+.bg{
+    background-color: var(--background-secondary);
+}

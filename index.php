@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nutrizione - Biologo Nutrizionista</title>
+    <link rel="stylesheet" href="css/nutrizione.css">
+    <script type="module" src="js/nutrizione.js"></script>
+</head>
+<body>
+
+    <!-- Intro -->
+    <section class="flex center full-screen reverse bg">
+        <div class="text flex-item-50   ">
+            <h1>Nutrizione</h1>
+            <p>Scopri come mantenere uno stile di vita sano ed equilibrato attraverso una corretta alimentazione.</p>
+            
+            <p>
+                Mettersi a dieta non è una cosa facile...<br>
+                Quasi sempre sinonimo di rinunce, restrizioni e sacrifici; si può seguire uno schema dietetico tutta la vita?
+            </p>
+
+            <p>Ovviamente no, e allora come si fa?</p>
+
+            <p>
+                Bisogna imparare ad avere un proprio stile alimentare. 
+                La dieta è solo uno strumento per attuare il cambiamento.
+            </p>
+
+            <p>
+                In generale, quello che propongo sono dei percorsi nutrizionali personalizzati, 
+                sia che il paziente sia sano sia che abbia una patologia accertata.
+            </p>
+
+            <p>
+                Nel percorso nutrizionale, oltre ad aiutarvi a seguire lo schema alimentare, 
+                vi insegnerò come correggere le vostre abitudini alimentari scorrette. 
+                La parola d'ordine è <strong>imparare</strong>, 
+                perché non si può seguire un foglio stampato tutta la vita.
+            </p>
+        </div>
+
+        <div id="intro" class="flex-item-50">
+            <img src="images/back1.jpg" alt="Immagine di pasta con verdure">
+        </div>
+    </section>
+
+    <!-- Profilo -->
+    <section class="flex stretch ">
+        <div class="text flex-item-25 bg-alt ">
+            <h2>Biologo Nutrizionista</h2>
+            <p>
+                Iscritto all’Ordine dei Biologi 
+                <strong>Piemonte, Liguria, Valle d'Aosta</strong> 
+                n° <strong>A2155</strong>.
+            </p>
+        </div>
+         <div class="text flex-item-25 bg-alt">
+            <h3>Formazione</h3>
+            <ul>
+                <li>Laurea specialistica in Scienze Biologiche Sanitarie presso l’Università di Genova</li>
+                <li>Master di II Livello in Dietetica e Nutrizione Clinica presso l’Università di Pavia</li>
+                <li>Certificato SANIS di esperto in nutrizione sportiva</li>
+            </ul>
+            </div>
+            <div class="text flex-item-30 bg-alt">
+            <h3>Collaborazioni</h3>
+            <p>Collabora come Biologo Nutrizionista presso:</p>
+            <ul>
+                <li>
+                    <strong>Diagnostica Medica Manara</strong>, via G.B. Custo 5E, Genova Bolzaneto<br>
+                    <em>Martedì e Sabato</em><br>
+                    <strong>WhatsApp:</strong> 
+                    <a href="https://wa.me/393492816497" target="_blank" rel="noopener">
+                        +39 349 281 6497
+                    </a> (solo messaggi)<br>
+                    <strong>Tel:</strong> 
+                    <a href="tel:+390107415108">010 7415108</a>
+                </li>
+            </ul>
+            </div>
+            <img class="flex-item-20" src="images/dottstefano.jpg" alt="Immagine di un biologo nutrizionista">
+        <section class="flex ">
+           
+        </section>
+
+        <div class="text bg">
+            <h3>Prezzi delle visite</h3>
+            <ul>
+                <li>
+                    <strong>Prima visita</strong> 
+                    (comprendente anamnesi, analisi della composizione corporea mediante bioimpedenziometro, 
+                    elaborazione della dieta/piano nutrizionale, educazione nutrizionale): 
+                    <strong>90€</strong>
+                </li>
+                <li>
+                    <strong>Controllo</strong> (entro 3 mesi dalla prima visita): 
+                    <strong>45€</strong>
+                </li>
+            </ul>
+
+            <p>
+                Le visite nutrizionali effettuate dai biologi sono 
+                <strong>detraibili fiscalmente</strong> ai sensi dell’art. 15, comma 1, lett. c, del TUIR 
+                e non necessitano di prescrizione medica 
+                (Circolare Agenzia Entrate n. 19/E 2012, par. 2.2).
+            </p>
+        </div>
+        
+    </section>
+    <section class="flex bg-alt">
+        <div class="text">
+            <h2>Percorso Nutrizionale</h2>
+            <h3>Dimagrire nel modo giusto perdendo il grasso e non solo il peso</h3>
+
+<p>
+Quando vogliamo dimagrire, la prima cosa che pensiamo è il valore rilevato sulla bilancia di casa e il peso che vogliamo raggiungere, magari ci avvaliamo anche del famoso calcolo del BMI (indice di massa corporea) per vedere se siamo normopeso, sovrappeso, ecc.
+</p>
+
+<h3>Limiti del BMI</h3>
+<p>
+Il solo utilizzo del calcolo dell'indice di massa corporea tuttavia presenta dei limiti che spesso l'utente non tiene conto o ignora. Il calcolo del BMI non tiene conto, ad esempio:
+</p>
+
+<ul>
+    <li>dello sviluppo della massa muscolare del soggetto,</li>
+    <li>del sesso o dell'età del paziente,</li>
+    <li>non è attendibile in presenza di edemi.</li>
+</ul>
+
+<p>
+Insieme al BMI sono necessari il rilevamento di altri parametri: percentuale di grasso, massa muscolare, idratazione corporea, rilevabili con strumenti di livello come il bioimpedenziometro vettoriale o ancora con strumenti quali la DEXA (gold standard per la rilevazione della massa muscolare). Le circonferenze, in particolare la circonferenza vita, sono molto importanti anche per il rischio cardiovascolare, così come il rapporto vita/fianchi.
+</p>
+
+<h3>Obiettivo del piano di dimagrimento</h3>
+<p>
+L'obiettivo di un piano di dimagrimento serio è quello di diminuire il grasso corporeo, di conseguenza anche il peso cala, senza però perdere la massa muscolare che va preservata. La massa muscolare è la componente principale della massa magra (ricordiamo che la massa magra è tutto ciò che non è grasso, quindi non solo muscoli, ma visceri, sangue, ossa, liquidi corporei).
+</p>
+
+<h3>Apporto proteico</h3>
+<p>Per riuscire a ottenere brillanti risultati bisogna considerare:</p>
+
+<ul>
+    <li>
+        L'apporto proteico, che deve essere adeguato all'attività fisica che si fa. Per un sedentario, l'apporto proteico è 0,95 g/kg peso corporeo, ma ogni sport ha diversi apporti.
+    </li>
+    <li>
+        In generale, se ci manteniamo tra 1-1,5 g di proteine/kg peso corporeo, permettiamo al nostro organismo di mantenere un bilancio proteico positivo o in pareggio, evitando così che una parte delle proteine venga utilizzata a scopo energetico.
+    </li>
+</ul>
+
+<h3>Ruolo dei glucidi</h3>
+<p>
+Anche i glucidi (carboidrati) giocano un ruolo non da poco. Se mangiamo meno di 100 g di glucidi al giorno, rischiamo che vengano degradate proteine endogene, in particolare quelle muscolari, per far fronte al bisogno energetico. Ovviamente, è consigliabile fare attività fisica.
+</p>
+
+<h3>Attività fisica</h3>
+<p>
+Un esercizio fisico costante di tipo aerobico, anche a bassa intensità, determina un miglioramento dell'ossidazione degli acidi grassi, determinando sicuramente un miglioramento della composizione corporea in termini di massa grassa, ma soprattutto migliorando la funzione cardiovascolare, specialmente nel soggetto sedentario.
+</p>
+
+        </div>
+    </section>
+    <section class="flex ">
+        <div class="text flex-item-50 bg">
+            <h3>Percorsi Nutrizionali Personalizzati</h3>
+    <p>
+    Il Dott. Piscioneri Stefano, offre consulenze nutrizionali ed elabora piani nutrizionali personalizzati per:
+    </p>
+    <ul>
+       <li> Calo ed aumento ponderale.</li>
+       <li> Gravidanza, allattamento e menopausa.</li>
+       <li> Vegetariani.</li>
+    </ul>
+   <p> <strong>Cosa non faccio</strong>:
+    <ul>
+        <li> Disturbi del comportamento alimentare (DCA).</li>
+        <li> Gravidanze a rischio.</li>
+        <li> Diabetici insulino-dipendenti.</li>
+    </ul>
+        </div>
+         <div class="text flex-item-50 bg">
+            <h3>Diete per Patologie Accertate</h3>
+
+    <p>Diete per patologie accertate come:</p>
+
+        <ul>
+            <li> Allergie.</li>
+            <li> Diabete (Diabete mellito di tipo II)</li>
+            <li> Dislipidemie.</li>
+            <li> Gotta.</li>
+            <li> Ipertensione.</li>
+            <li> Patologie autoimmuni.</li>
+            <li> Patologie gastrointestinali.</li>
+            <li> Sindrome metabolica.</li>
+        </ul>
+        <p>Necessario il referto medico con la diagnosi.</p>
+        </div>
+         <div class="text flex-item-100 center bg-alt large-padding">
+         <h3>Programmi dietetici per sportivi</h3>
+    <p>Amatoriali ed agonisti, con consulenza personalizzata sull'uso degli integrati alimentari.</p>
+
+        </div>
+         <div class="text flex-item-50 bg">
+            <h3>Valutazione stato di nutrizione</h3>
+            <p> Analisi della composizione corporea mendiante analisi bio-impedenziometrica.
+
+           <p>L'analisi bio-impedenziometrica della composizione corporea permette di misurare lo stato d'idratazione e di stimare la massa grassa, massa muscolare ed il metabolismo basale.
+       </p> 
+           </div>
+                       <img class="flex-item-50" src="images/bia101.jpg"  loading="lazy" alt="Immagine di un bioimpedenziometro">
+
+    </section>
+    <section class="flex">
+        <div class="text"></div>
+    </section>
+    <footer class="flex center">
+        <div class="text">
+            <p>
+                © 2025 Dott.Stefano Piscioneri - Biologo Nutrizionista - P.Iva 02139760991
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
