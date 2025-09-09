@@ -117,10 +117,22 @@ img{
     align-items: stretch;
     justify-content: stretch;
 }
+
+.start{
+    justify-content: flex-start;
+}
+.end{
+    justify-content: flex-end;
+    
+}
 .text{
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
 }
 
+.no-shrink-grow{
+    flex-shrink:0; 
+    flex-grow: 0;
+}
 
 .full-screen{
     width:100%;
@@ -131,15 +143,19 @@ img{
     height:100%;
 }
 
+.small-padding{
+    padding: 2rem 2rem;
+}
+
 .large-padding{
-    padding: 8rem 2rem;
+    padding: 6rem 2rem;
 }
 
 
 ul{
     list-style: none;
     padding-left:1.5rem;
-    margin-bottom:4rem;
+    margin-bottom:3rem;
     font-family: var(--font-family)
 }
 
@@ -186,21 +202,28 @@ ul li{
    .direction-column{
         flex-direction: column;
    }
+
+   .text{
+        padding:6rem 2rem;
+   }
 }
 
 /*Sito*/
 #intro{
-    /*
-    background-image: url('../images/pastaverdura.jpg');
-    background-size: contain;
-    background-position:  center;*/
-    height: 100vh;
+    
+    background-image: url('../images/back5.jpg');
+    background-size: cover;
+    background-position:  center;
     background-repeat:no-repeat;
-    flex:1 1 50%;
+
 }
 .bg-alt{
     background-color: var(--background-color);
 }
 .bg{
     background-color: var(--background-secondary);
+}
+
+.opacity{
+    opacity:75%
 }
